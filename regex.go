@@ -4,6 +4,10 @@ import (
   "fmt"
 )
 
+// TODO: 
+//    - construct parse tree from regex(?)
+//    - construct DFA from parse tree
+
 // TODO: define something a bit more sophisticated than this
 var END rune = '0'
 
