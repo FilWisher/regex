@@ -48,9 +48,6 @@ func (re *Regex) Print() {
 type Stack []Regex
 
 func (s *Stack) Pop() Regex {
-  if len(*s) == 0 {
-    return Regex{}
-  }
   re := (*s)[len(*s)-1]
   *s = (*s)[:len(*s)-1]
   return re
